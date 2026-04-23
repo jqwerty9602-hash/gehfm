@@ -201,3 +201,30 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
 
 
 
+
+
+/* responsive-hardening */
+@media (max-width: 900px) {
+  .col-lg-6, .col-md-12, .feature-item, .service-item, .counter_item, .team-member, .contact-form, .contact-detail, .footer-column { width: 100%; }
+  .header-wrap { min-height: 70px; }
+  .custom-logo { width: 190px; height: auto; max-height: 64px; }
+  .section-padding { padding: 52px 0; }
+  .page-header { padding: 52px 0; }
+  .page-header h1, .section-title { font-size: 30px; }
+  .hero-content-style2 { gap: 0; }
+  .hcl2-image { width: 220px; height: 220px; }
+  .footer-row { display: block; margin-left: 0; margin-right: 0; }
+  .footer-column { padding: 0; }
+}
+@media (max-width: 520px) {
+  .container { padding-left: 18px; padding-right: 18px; }
+  .hero-slideshow-wrapper { padding: 64px 0; }
+  .hcl2-content h1 { font-size: 28px; }
+  .hcl2-content p, .page-section .content-area { font-size: 16px; }
+  .page-header h1, .section-title { font-size: 26px; }
+  .button-link { width: 100%; text-align: center; }
+  .team-member img { height: 160px; }
+  .footer-logo { width: 190px; }
+  .social-links { flex-wrap: wrap; }
+}
+
