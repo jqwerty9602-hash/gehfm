@@ -103,6 +103,8 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
 
 .footer-column--brand, 
 
+.footer-column--brand, 
+
 .widget-title { color: #fff; font-size: 16px; text-transform: uppercase; margin: 0 0 18px; }
 .social-links { list-style: none; display: flex; gap: 12px; padding: 0; margin: 0; }
 .social-links a { display: inline-flex; min-width: 42px; height: 42px; align-items: center; justify-content: center; padding: 0 12px; border-radius: 50px; background: #222; color: #fff; font-size: 13px; }
@@ -117,6 +119,8 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
   .col-lg-6, .col-md-12, .feature-item, .service-item, .counter_item, .team-member, .contact-form, .contact-detail, .footer-column { width: 33.333%; padding: 0 15px; }
 .footer-column--brand, .footer-column--info { width: 25%; }
 .footer-column--nav { width: 50%; }
+.footer-column--brand, 
+
 .footer-column--brand, 
 
 .footer-column--brand, 
@@ -189,6 +193,8 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
 
 .footer-column--brand, 
 
+.footer-column--brand, 
+
 .footer-menu { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 30px; margin: 0; padding: 0; }
 .footer-menu li { margin: 0 0 9px; }
 .footer-menu a { color: #bbb; text-decoration: none; }
@@ -197,6 +203,8 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
   .footer-column { width: 33.333%; padding: 0 15px; }
 .footer-column--brand, .footer-column--info { width: 25%; }
 .footer-column--nav { width: 50%; }
+.footer-column--brand, 
+
 .footer-column--brand, 
 
 .footer-column--brand, 
@@ -313,5 +321,27 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
   .site-footer .footer-logo { width: 190px; }
   .site-footer .footer-menu { grid-template-columns: 1fr; gap: 24px; }
   .site-footer .footer-menu li { margin-bottom: 8px; }
+}
+/* mobile-nav-polish */
+@media (max-width: 900px) {
+  .site-header { z-index: 50; }
+  .header-wrap { position: relative; }
+  .nav-toggle { display: inline-flex; align-items: center; justify-content: center; width: 52px; height: 48px; border: 1px solid #ddd; border-radius: 3px; background: #fff; }
+  .main-navigation { display: none; position: absolute; left: 0; right: 0; top: 100%; max-height: calc(100vh - 76px); overflow-y: auto; background: #fff; border-top: 3px solid var(--green); box-shadow: 0 16px 30px rgba(0,0,0,.14); }
+  .main-navigation.is-open { display: block; }
+  .onepress-menu { display: block; width: 100%; margin: 0; padding: 0; }
+  .onepress-menu > li { display: block; width: 100%; border-bottom: 1px solid #e7e7e7; }
+  .onepress-menu > li > a { display: flex; align-items: center; min-height: 54px; width: 100%; padding: 16px 24px; color: #202833; font-size: 15px; line-height: 1.35; font-weight: 800; letter-spacing: 0; text-transform: uppercase; border: 0; background: #fff; }
+  .onepress-menu > li.menu-item-has-children > a::after { content: ""; width: 8px; height: 8px; margin-left: auto; border-right: 2px solid #8a8f96; border-bottom: 2px solid #8a8f96; transform: rotate(45deg); }
+  .onepress-menu > li > a:hover, .onepress-menu > li > a:focus { color: var(--green); background: #f8faf7; }
+  .sub-menu { display: block; position: static; width: 100%; min-width: 0; box-shadow: none; border: 0; margin: 0; padding: 4px 0 8px; background: #f7f8f7; }
+  .sub-menu li { display: block; width: 100%; }
+  .sub-menu a { display: block; width: 100%; padding: 13px 24px 13px 42px; color: #2d3540; font-size: 15px; line-height: 1.38; font-weight: 650; text-transform: none; white-space: normal; border-top: 1px solid #e4e8e4; border-bottom: 0; background: transparent; }
+  .sub-menu li:first-child a { border-top: 0; }
+  .sub-menu a:hover, .sub-menu a:focus { color: var(--green); background: #eef4ec; }
+}
+@media (max-width: 520px) {
+  .onepress-menu > li > a { min-height: 52px; padding-left: 22px; padding-right: 22px; font-size: 14px; }
+  .sub-menu a { padding-left: 38px; padding-right: 22px; font-size: 14px; }
 }
 
