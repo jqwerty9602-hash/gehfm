@@ -151,6 +151,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.gehfm.org/welcome-global-employee-health-fitness-month/resources/wellness-tips/sleeping-well-digital-age-infographic/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.gehfm.org/welcome-global-employee-health-fitness-month/resources/wellness-tips/sitting-standing-youre-risk-infographic/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -162,6 +167,11 @@
   </url>
   <url>
     <loc>https://www.gehfm.org/welcome-global-employee-health-fitness-month/resources/what-is-included-in-the-mindybody-ignite-toolkits/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.gehfm.org/harttoheartfitness/worksite-wellness/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
