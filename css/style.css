@@ -113,6 +113,8 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
 
 .footer-column--brand, 
 
+.footer-column--brand, 
+
 .widget-title { color: #fff; font-size: 16px; text-transform: uppercase; margin: 0 0 18px; }
 .social-links { list-style: none; display: flex; gap: 12px; padding: 0; margin: 0; }
 .social-links a { display: inline-flex; min-width: 42px; height: 42px; align-items: center; justify-content: center; padding: 0 12px; border-radius: 50px; background: #222; color: #fff; font-size: 13px; }
@@ -127,6 +129,8 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
   .col-lg-6, .col-md-12, .feature-item, .service-item, .counter_item, .team-member, .contact-form, .contact-detail, .footer-column { width: 33.333%; padding: 0 15px; }
 .footer-column--brand, .footer-column--info { width: 25%; }
 .footer-column--nav { width: 50%; }
+.footer-column--brand, 
+
 .footer-column--brand, 
 
 .footer-column--brand, 
@@ -219,6 +223,8 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
 
 .footer-column--brand, 
 
+.footer-column--brand, 
+
 .footer-menu { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 30px; margin: 0; padding: 0; }
 .footer-menu li { margin: 0 0 9px; }
 .footer-menu a { color: #bbb; text-decoration: none; }
@@ -227,6 +233,8 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
   .footer-column { width: 33.333%; padding: 0 15px; }
 .footer-column--brand, .footer-column--info { width: 25%; }
 .footer-column--nav { width: 50%; }
+.footer-column--brand, 
+
 .footer-column--brand, 
 
 .footer-column--brand, 
@@ -350,9 +358,11 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
 }
 @media (max-width: 520px) {
   .site-footer .footer-widgets { padding: 46px 0 38px; }
+  .site-footer .container { padding-left: 22px; padding-right: 22px; }
   .site-footer .footer-row { gap: 30px; }
-  .site-footer .footer-logo { width: min(260px, 100%); margin-bottom: 18px; padding: 7px; }
-  .site-footer .footer-brand p { max-width: 340px; margin-bottom: 18px; color: #b9b9b9; font-size: 16px; line-height: 1.65; font-weight: 400; text-transform: none; letter-spacing: 0; word-spacing: 0; }
+  .site-footer .footer-brand, .site-footer .footer-logo-link, .site-footer .footer-brand p { width: 100%; max-width: none; }
+  .site-footer .footer-logo { display: block; width: 100%; max-width: 360px; height: auto; margin-bottom: 20px; padding: 8px; }
+  .site-footer .footer-brand p { margin-bottom: 18px; color: #b9b9b9; font-size: 16px; line-height: 1.65; font-weight: 400; text-transform: none; letter-spacing: 0; word-spacing: 0; }
   .site-footer .social-links { gap: 12px; margin-top: 16px; }
   .site-footer .social-links--icons a { width: 46px; min-width: 46px; height: 46px; }
   .site-footer .footer-widget--menu .widget-title { margin-bottom: 18px; }
