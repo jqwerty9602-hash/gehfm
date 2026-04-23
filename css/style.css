@@ -212,7 +212,7 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
   .page-header { padding: 52px 0; }
   .page-header h1, .section-title { font-size: 30px; }
   .hero-content-style2 { gap: 0; }
-  .hcl2-image { width: 220px; height: 220px; }
+  .hcl2-image { width: min(280px, 72vw); height: min(280px, 72vw); }
   .footer-row { display: block; margin-left: 0; margin-right: 0; }
   .footer-column { padding: 0; }
 }
@@ -221,12 +221,19 @@ input[type="submit"] { width: auto; background: var(--accent); color: #fff; bord
   .hero-slideshow-wrapper { padding: 64px 0; }
   .hcl2-content h1 { font-size: 28px; }
   .hcl2-content p, .page-section .content-area { font-size: 16px; }
+    .hcl2-image { width: min(300px, 78vw); height: min(300px, 78vw); }
   .page-header h1, .section-title { font-size: 26px; }
   .button-link { width: 100%; text-align: center; }
   .team-member img { height: 160px; }
   .footer-logo { width: 190px; }
   .social-links { flex-wrap: wrap; }
 }
+
+
+
+
+
+
 
 
 
