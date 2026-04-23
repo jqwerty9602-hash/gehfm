@@ -1,0 +1,4 @@
+﻿static-server*.log
+
+.venv/
+.vscode/
